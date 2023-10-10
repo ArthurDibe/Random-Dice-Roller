@@ -1,5 +1,3 @@
-# README CREATOR
-
 # Random Dice Roller
 
 This Application was created to roll a dice and reandomly select one of its numbers. Useful for D&D players that need a simple dice decision!
