@@ -6,7 +6,7 @@ var startAlignment = Alignment.topLeft;
 var endAlignment = Alignment.bottomRight;
 
 class GradientContainer extends StatelessWidget {
-  GradientContainer(this.colors,
+  const GradientContainer(this.colors,
       {super.key}); // GradientContainer({key}) : super(key: key);
 
   // final Color firstColor;
@@ -29,7 +29,7 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: Center(
+      child: const Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
